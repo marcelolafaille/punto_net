@@ -10,6 +10,26 @@ namespace Clase02
     {
         static void Main(string[] args)
         {
+            Caja caja = new Caja();
+            caja.Abrir();
+            caja.Cerrar();
+
+            Console.ReadKey();
+
+
+            caja.Color = "Negra";
+            caja.ColorDeLaCaja();
+
+            Console.ReadKey();
+
+
+            string eskeler = "ESKELER";
+            string dou = "DOU";
+            string frase = string.Format("eskeler {0}, {1} dou", dou, eskeler);
+            Console.WriteLine(frase);
+            Console.ReadKey();
+
+
         }
     }
 }
