@@ -1,0 +1,60 @@
+﻿Ejercicios
+
+1.
+Crear un dataset con los siguientes tablas:
+    • Libros
+        ◦ Codigo
+        ◦ Titulo
+        ◦ Editorial
+        ◦ Autor
+        ◦ Precio
+    • Ventas
+        ◦ CodigoLibro
+        ◦ Cantidad
+        ◦ PrecioTotal
+        ◦ CodVendedor
+        ◦ Fecha
+    • Comentarios
+        ◦ CodigoLibro
+        ◦ Comentario
+        ◦ Fecha
+        ◦ Puntaje (1 al 5)
+    • Vendedores
+        ◦ CodVendedor
+        ◦ DNI
+        ◦ Nombre
+        ◦ Apellido
+        ◦ Telefono
+
+
+Llenar las tablas con al menos 3 filas de información en cada una.
+
+Por consola mostrar las siguientes opciones:
+Libreria [nombre]
+
+1- Ver tablas.
+2- Salir.
+
+Si selecciona 1, mostrar los nombres de las tablas en el dataset como opciones, ejemplo:
+
+1- Libros
+2- Ventas
+3- Comentarios
+4-Vendedores
+5- Salir
+
+Si selecciona una tabla, mostrar la información contenida con los nombres de las columnas.
+
+En ambos casos si selecciona “Salir” cerrar la consola.
+
+
+
+2.
+Siguiendo con el ejercicio anterior, insertar 10 libros más con precios random entre 100 y 800. 
+Agregar una opción para mostrar una vista con los libros que valgan más de un valor ingresado por el usuario.
+
+3. 
+Siguiendo con el ejercicio anterior, insertar 10 ventas mas de libros previamente cargados. Agregar una opción por consola para mostrar una vista con la mejor venta del día, teniendo en cuenta de mostrar el Título del libro en lugar del código, hacer lo mismo con el código del vendedor y el Nombre y Apellido.
+
+4. 
+Crear un nuevo proyecto Class Library .NET Framework. Dentro de ese proyecto crear una clase pública “GeneradorTablas” con un método “ObtenerTablas” que retorne el DataSet creado para los ejercicios, (ejercicio 1). Usar esta librería como referencia para las consolas de los ejercicios 2 y 3.
